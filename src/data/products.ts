@@ -1,0 +1,160 @@
+import { BebbleProduct } from '../types';
+
+export const BEBBLE_PRODUCTS: BebbleProduct[] = [
+  {
+    id: 'auto',
+    nameAr: 'تلقائي — تحليل الصورة المرجعية المرفقة',
+    nameEn: 'AUTO — analyze uploaded reference image',
+    value: 'AUTO — analyze the uploaded reference image',
+    category: 'auto',
+    colorAccent: '#5c8bd6',
+    badge: 'ذكاء اصطناعي تلقائي',
+    bottleColor: 'حسب الصورة المرفقة',
+    suggestedEnv: 'AUTO',
+    suggestedHeadline: 'عناية فائقة بطفلك من بيبل الكويت'
+  },
+  {
+    id: 'laundry-detergent',
+    nameAr: 'منظف الغسيل السائل بيبل — العبوة الوردية',
+    nameEn: 'Bebble Liquid Laundry Detergent — original pink bottle',
+    value: 'Bebble Liquid Laundry Detergent — original pink bottle',
+    category: 'detergent',
+    colorAccent: '#ec4899',
+    badge: 'غسيل ونظافة ناعمة',
+    bottleColor: 'عبوة وردية أصلية',
+    suggestedEnv: 'Baby Laundry Room',
+    suggestedHeadline: 'نظافة ناعمة ورائحة تدوم لملابس طفلك'
+  },
+  {
+    id: 'bottle-toy-wash',
+    nameAr: 'غسول الرضّاعات والألعاب والأطباق — عبوة ضخ وردية',
+    nameEn: 'Bebble Bottle, Toy & Dish Wash — original pink pump bottle',
+    value: 'Bebble Bottle, Toy & Dish Wash — original pink pump bottle',
+    category: 'wash',
+    colorAccent: '#f43f5e',
+    badge: 'أمان ونقاء تام',
+    bottleColor: 'عبوة ضخ وردية أصلية',
+    suggestedEnv: 'Luxury Baby Bathroom',
+    suggestedHeadline: 'نقاء وأمان مطلق لرضّاعات وألعاب ملاكك الصغير'
+  },
+  {
+    id: 'shampoo-body-wash',
+    nameAr: 'شامبو وغسول الجسم بيبل — العبوة الزرقاء',
+    nameEn: 'Bebble Shampoo & Body Wash — original blue bottle',
+    value: 'Bebble Shampoo & Body Wash — original blue bottle',
+    category: 'wash',
+    colorAccent: '#3b82f6',
+    badge: 'لا دموع بعد اليوم',
+    bottleColor: 'عبوة زرقاء كلاسيكية',
+    suggestedEnv: 'Luxury Baby Bathroom',
+    suggestedHeadline: 'رغوة ناعمة تنعش بشرة طفلك بدون دموع'
+  },
+  {
+    id: 'wash-gel',
+    nameAr: 'جل الاستحمام والغسيل — العبوة الزرقاء الفاتحة',
+    nameEn: 'Bebble Wash Gel — original light-blue bottle',
+    value: 'Bebble Wash Gel — original light-blue bottle',
+    category: 'wash',
+    colorAccent: '#0ea5e9',
+    badge: 'ترطيب وحماية يومية',
+    bottleColor: 'عبوة زرقاء فاتحة',
+    suggestedEnv: 'Luxury Baby Bathroom',
+    suggestedHeadline: 'لمسة لطيفة تحمي نعومة بشرة طفلك'
+  },
+  {
+    id: 'body-cream',
+    nameAr: 'كريم ترطيب الجسم — أنبوب أخضر',
+    nameEn: 'Bebble Body Cream — original green tube',
+    value: 'Bebble Body Cream — original green tube',
+    category: 'cream',
+    colorAccent: '#10b981',
+    badge: 'ترطيب عميق غني',
+    bottleColor: 'أنبوب أخضر أصلي',
+    suggestedEnv: 'Baby Bedroom',
+    suggestedHeadline: 'ترطيب لطيف وحماية تدوم طوال اليوم'
+  },
+  {
+    id: 'wind-weather-cream',
+    nameAr: 'كريم الحماية من الرياح والطقس — أنبوب أخضر',
+    nameEn: 'Bebble Wind & Weather Cream — original green tube',
+    value: 'Bebble Wind & Weather Cream — original green tube',
+    category: 'cream',
+    colorAccent: '#059669',
+    badge: 'درع واقٍ للطقس',
+    bottleColor: 'أنبوب أخضر للحماية',
+    suggestedEnv: 'Natural Botanical',
+    suggestedHeadline: 'حماية كاملة لبشرة طفلك في كل الأجواء'
+  },
+  {
+    id: 'my-friend-watermelon',
+    nameAr: 'My Friend بطيخ — شامبو وجل استحمام (أخضر)',
+    nameEn: 'Bebble My Friend Watermelon Shampoo & Shower Gel — original green bottle',
+    value: 'Bebble My Friend Watermelon Shampoo & Shower Gel — original green bottle',
+    category: 'kids',
+    colorAccent: '#22c55e',
+    badge: 'مرح وانتعاش البطيخ',
+    bottleColor: 'عبوة خضراء للأطفال',
+    suggestedEnv: 'Playful & Colorful',
+    suggestedHeadline: 'وقت الاستحمام أصبح أكثر مرحاً وانتعاشاً مع البطيخ!'
+  },
+  {
+    id: 'my-friend-banana',
+    nameAr: 'My Friend موز — شامبو وجل استحمام (أصفر)',
+    nameEn: 'Bebble My Friend Banana Shampoo & Shower Gel — original yellow bottle',
+    value: 'Bebble My Friend Banana Shampoo & Shower Gel — original yellow bottle',
+    category: 'kids',
+    colorAccent: '#eab308',
+    badge: 'رائحة الموز الشهية',
+    bottleColor: 'عبوة صفراء للأطفال',
+    suggestedEnv: 'Playful & Colorful',
+    suggestedHeadline: 'شعر ناعم ورائحة موز ممتعة يحبها الصغار!'
+  },
+  {
+    id: 'my-friend-strawberry',
+    nameAr: 'My Friend فراولة — شامبو وجل استحمام (وردي)',
+    nameEn: 'Bebble My Friend Strawberry Shampoo & Shower Gel — original pink bottle',
+    value: 'Bebble My Friend Strawberry Shampoo & Shower Gel — original pink bottle',
+    category: 'kids',
+    colorAccent: '#f43f5e',
+    badge: 'انتعاش الفراولة اللذيذة',
+    bottleColor: 'عبوة وردية للأطفال',
+    suggestedEnv: 'Playful & Colorful',
+    suggestedHeadline: 'نظافة بنكهة الفراولة الحلوة لشعر وبشرة نضرة'
+  },
+  {
+    id: 'body-milk',
+    nameAr: 'حليب الجسم بيبل — العبوة الخضراء',
+    nameEn: 'Bebble Body Milk — original green bottle',
+    value: 'Bebble Body Milk — original green bottle',
+    category: 'cream',
+    colorAccent: '#14b8a6',
+    badge: 'قوام حليبي مخملي',
+    bottleColor: 'عبوة خضراء',
+    suggestedEnv: 'Natural Botanical',
+    suggestedHeadline: 'نعومة مخملية سريعة الامتصاص لحماية بشرة الرضيع'
+  },
+  {
+    id: 'cream-soap-lavender',
+    nameAr: 'كريم-صابون لافندر — العبوة البنفسجية',
+    nameEn: 'Bebble Cream-Soap Lavender — original lavender box',
+    value: 'Bebble Cream-Soap Lavender — original lavender box',
+    category: 'soap',
+    colorAccent: '#8b5cf6',
+    badge: 'استرخاء وتهدئة مع اللافندر',
+    bottleColor: 'علبة بنفسجية كرتونية',
+    suggestedEnv: 'Luxury Baby Bathroom',
+    suggestedHeadline: 'رائحة اللافندر الهادئة لنوم عميق ومريح'
+  },
+  {
+    id: 'cream-soap-chamomile',
+    nameAr: 'كريم-صابون بابونج — العبوة الصفراء',
+    nameEn: 'Bebble Cream-Soap Chamomile — original yellow box',
+    value: 'Bebble Cream-Soap Chamomile — original yellow box',
+    category: 'soap',
+    colorAccent: '#f59e0b',
+    badge: 'خلاصة البابونج الطبيعي',
+    bottleColor: 'علبة صفراء ناعمة',
+    suggestedEnv: 'Natural Botanical',
+    suggestedHeadline: 'عناية فائقة بخلاصة البابونج للبشرة الحساسة'
+  }
+];

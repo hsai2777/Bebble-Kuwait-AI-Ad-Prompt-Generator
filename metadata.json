@@ -1,0 +1,6 @@
+{
+  "name": "Bebble Kuwait — AI Ad Prompt Generator",
+  "description": "مولد برومبت احترافي لإعلانات الفيديو والصور لمنتجات بيبل الكويت مع قفل الهوية البصرية ودعم التعليق الصوتي الخليجي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
